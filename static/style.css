@@ -1,0 +1,82 @@
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔥 NAVBAR */
+.navbar {
+    background: rgba(15, 23, 42, 0.9) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #1e293b;
+}
+
+/* ✨ CARDS */
+.card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 15px;
+    color: #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+/* 🎯 BUTTONS */
+.btn {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* 🔥 GLOW BUTTONS */
+.btn-primary {
+    background: linear-gradient(45deg, #3b82f6, #6366f1);
+    border: none;
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #10b981, #22c55e);
+    border: none;
+}
+
+.btn-warning {
+    background: linear-gradient(45deg, #f59e0b, #fbbf24);
+    border: none;
+}
+
+.btn-dark {
+    background: linear-gradient(45deg, #334155, #475569);
+    border: none;
+}
+
+/* 📊 PROGRESS BAR */
+.progress {
+    background: #1e293b;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+}
+
+/* ✨ TEXT EFFECT */
+h1, h2, h3, h4 {
+    color: #f8fafc;
+}
+
+/* 🎮 GAME RESULT COLORS */
+#result1, #result2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* 🌟 GLOW EFFECT */
+.glow {
+    box-shadow: 0 0 15px rgba(59,130,246,0.6);
+}
